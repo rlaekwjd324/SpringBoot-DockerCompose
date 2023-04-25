@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  spring-main-app:
+    build: .
+    ports:
+      - "8083:8080"
+  spring-stage-app:
+    build: .
+    ports:
+      - "8084:8080"
